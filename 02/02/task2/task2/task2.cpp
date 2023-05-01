@@ -20,28 +20,23 @@ int main()
 
     int main()
     {
-        int num = 0;
-        while (num < 100) //бесконечныцй цикл
-        {
-            std::cout << count << ' ';
+        int num = 8;
+        while (num != 10) {
+            num += 1;
         }
         return 0;
     }
 
-    //#include <iostream>
-    //
-    //    int main()
-    //    {
-    //        int num = 0;
-    //     ...
-    // 
-    //        while (num == 100) // четкое условие
-    //        {
-    //            std::cout << count << ' ';
-    //        }
-    //        return 0;
-    //    }
-
+//#include <iostream>
+//    int main() {
+//        int num = 8;
+//        while (num < 10) {
+//            num += 1;
+//            if (num > 9 && num < 11); доп условие выхода из бесконечного цикла
+//            std::cout << num;
+//        }
+//        return 0;
+//    }
 
     // ошибка линковки
 
