@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+project(task1)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Catch2 Catch2-bujild)
+add_executable(task1 task1.cpp)
+target_link_libraries(task1 PRIVATE Catch2::Catch2)
